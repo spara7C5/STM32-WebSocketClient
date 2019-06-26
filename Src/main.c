@@ -26,6 +26,8 @@
  * @version 1.9.2
  **/
 
+
+
 //Dependencies
 #include <stdlib.h>
 //#include "stm32f4xx.h"
@@ -489,7 +491,7 @@ int_t main(void)
    //Initialize kernel
    osInitKernel();
    //Configure debug UART
-   debugInit(115200);
+   //debugInit(115200);
 
    //Start-up message
    TRACE_INFO("\r\n");

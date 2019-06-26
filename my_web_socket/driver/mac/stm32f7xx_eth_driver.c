@@ -216,7 +216,7 @@ error_t stm32f7xxEthInit(NetInterface *interface)
    return NO_ERROR;
 }
 
-
+#define USE_STM32F7XX_NUCLEO_144
 //STM32756G-EVAL, STM32F769I-EVAL, STM32F746G-DISCOVERY, STM32F769I-DISCOVERY
 //Nucleo-F746ZG or Nucleo-F767ZI evaluation board?
 #if defined(USE_STM32756G_EVAL) || defined(USE_STM32F769I_EVAL) || \
