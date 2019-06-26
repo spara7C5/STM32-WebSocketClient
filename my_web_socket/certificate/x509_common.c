@@ -29,7 +29,7 @@
  **/
 
 //Switch to the appropriate trace level
-#define TRACE_LEVEL CRYPTO_TRACE_LEVEL
+//#define TRACE_LEVEL CRYPTO_TRACE_LEVEL
 
 //Dependencies
 #include "core/crypto.h"

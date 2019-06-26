@@ -414,6 +414,8 @@ void userTask(void *param)
 }
 
 
+
+
 /**
  * @brief Button task
  **/
@@ -455,10 +457,12 @@ void blinkTask(void *param)
    //Endless loop
    while(1)
    {
+      BSP_LED_On(LED2);
       BSP_LED_On(LED1);
-      osDelayTask(100);
+      osDelayTask(200);
+      BSP_LED_Off(LED2);
       BSP_LED_Off(LED1);
-      osDelayTask(900);
+      osDelayTask(200);
    }
 }
 
@@ -491,7 +495,9 @@ int_t main(void)
    //Initialize kernel
    osInitKernel();
    //Configure debug UART
-   //debugInit(115200);
+   debugInit(115200);
+
+
 
    //Start-up message
    TRACE_INFO("\r\n");

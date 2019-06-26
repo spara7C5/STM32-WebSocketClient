@@ -27,7 +27,55 @@
  **/
 
 //Dependencies
+#include "stm32f7xx.h"
+#include "stm32f7xx_hal.h"
 #include "debug.h"
+#include "os_port_freertos.h"
+
+//Variable declaration
+UART_HandleTypeDef UART_Handle;
+
+
+/**
+ * @brief Debug UART initialization
+ * @param[in] baudrate UART baudrate
+ **/
+
+void debugInit(uint32_t baudrate)
+{
+   GPIO_InitTypeDef GPIO_InitStructure;
+
+   //Enable GPIOD clock
+   __HAL_RCC_GPIOD_CLK_ENABLE();
+   //Enable USART3 clock
+   __HAL_RCC_USART3_CLK_ENABLE();
+
+   //Configure USART3_TX (PD8)
+   GPIO_InitStructure.Pin = GPIO_PIN_8;
+   GPIO_InitStructure.Mode = GPIO_MODE_AF_PP;
+   GPIO_InitStructure.Pull = GPIO_PULLUP;
+   GPIO_InitStructure.Speed = GPIO_SPEED_FAST;
+   GPIO_InitStructure.Alternate = GPIO_AF7_USART3;
+   HAL_GPIO_Init(GPIOD, &GPIO_InitStructure);
+
+   //Configure USART3_RX (PD9)
+   GPIO_InitStructure.Pin = GPIO_PIN_9;
+   GPIO_InitStructure.Mode = GPIO_MODE_AF_PP;
+   GPIO_InitStructure.Pull = GPIO_PULLUP;
+   GPIO_InitStructure.Speed = GPIO_SPEED_FAST;
+   GPIO_InitStructure.Alternate = GPIO_AF7_USART3;
+   HAL_GPIO_Init(GPIOD, &GPIO_InitStructure);
+
+   //Configure USART3
+   UART_Handle.Instance = USART3;
+   UART_Handle.Init.BaudRate = baudrate;
+   UART_Handle.Init.WordLength = UART_WORDLENGTH_8B;
+   UART_Handle.Init.StopBits = UART_STOPBITS_1;
+   UART_Handle.Init.Parity = UART_PARITY_NONE;
+   UART_Handle.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+   UART_Handle.Init.Mode = UART_MODE_TX_RX;
+   HAL_UART_Init(&UART_Handle);
+}
 
 
 /**
@@ -43,22 +91,52 @@ void debugDisplayArray(FILE *stream,
 {
    uint_t i;
 
-   //Dump the contents of the array
    for(i = 0; i < length; i++)
    {
       //Beginning of a new line?
       if((i % 16) == 0)
-      {
-         TRACE_PRINTF("%s", prepend);
-      }
-
+         fprintf(stream, "%s", prepend);
       //Display current data byte
-      TRACE_PRINTF("%02" PRIX8 " ", *((const uint8_t *) data + i));
-
+      fprintf(stream, "%02" PRIX8 " ", *((uint8_t *) data + i));
       //End of current line?
       if((i % 16) == 15 || i == (length - 1))
-      {
-         TRACE_PRINTF("\r\n");
-      }
+         fprintf(stream, "\r\n");
    }
+}
+
+
+/**
+ * @brief Write character to stream
+ * @param[in] c The character to be written
+ * @param[in] stream Pointer to a FILE object that identifies an output stream
+ * @return On success, the character written is returned. If a writing
+ *   error occurs, EOF is returned
+ **/
+
+int_t fputc(int_t c, FILE *stream)
+{
+   //Standard output or error output?
+   if(stream == stdout || stream == stderr)
+   {
+      //Character to be written
+      uint8_t ch = c;
+
+      //Transmit data
+      HAL_UART_Transmit(&UART_Handle, &ch, 1, HAL_MAX_DELAY);
+
+      //On success, the character written is returned
+      return c;
+   }
+   //Unknown output?
+   else
+   {
+      //If a writing error occurs, EOF is returned
+      return EOF;
+   }
+}
+
+void TRACE_INFO(char *str,...) {
+	osSuspendAllTasks();
+	HAL_UART_Transmit(&UART_Handle,str,strlen(str),100);
+	osResumeAllTasks();
 }
