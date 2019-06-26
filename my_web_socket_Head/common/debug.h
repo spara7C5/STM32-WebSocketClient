@@ -44,7 +44,7 @@ extern UART_HandleTypeDef UART_Handle;
 #define TRACE_LEVEL_INFO     4
 #define TRACE_LEVEL_DEBUG    5
 
-#define TRACE_LEVEL 0
+#define TRACE_LEVEL 5
 //Default trace level
 #ifndef TRACE_LEVEL
    #define TRACE_LEVEL TRACE_LEVEL_DEBUG
@@ -52,7 +52,7 @@ extern UART_HandleTypeDef UART_Handle;
 
 //Trace output redirection
 #ifndef TRACE_PRINTF
- //  #define TRACE_PRINTF(...) osSuspendAllTasks(), HAL_UART_Transmit(&UART_Handle,"ciao\n",5) , osResumeAllTasks()
+   #define TRACE_PRINTF(...) osSuspendAllTasks(),fprintf(stderr, __VA_ARGS__)  , osResumeAllTasks()
 #endif
 
 #ifndef TRACE_ARRAY
@@ -95,12 +95,12 @@ extern UART_HandleTypeDef UART_Handle;
 #endif
 
 #if (TRACE_LEVEL >= TRACE_LEVEL_INFO)
-   //#define TRACE_INFO(char *str) HAL_UART_Transmit(&UART_Handle,str,sizeof(str),10)
+   #define TRACE_INFO(...) TRACE_PRINTF(__VA_ARGS__)
    #define TRACE_INFO_ARRAY(p, a, n) TRACE_ARRAY(p, a, n)
    #define TRACE_INFO_NET_BUFFER(p, b, o, n)
    #define TRACE_INFO_MPI(p, a) TRACE_MPI(p, a)
 #else
-   //#define TRACE_INFO(...)
+   #define TRACE_INFO(...)
    #define TRACE_INFO_ARRAY(p, a, n)
    #define TRACE_INFO_NET_BUFFER(p, b, o, n)
    #define TRACE_INFO_MPI(p, a)
@@ -129,7 +129,7 @@ void debugInit(uint32_t baudrate);
 void debugDisplayArray(FILE *stream,
    const char_t *prepend, const void *data, size_t length);
 
-void TRACE_INFO(char *str,...);
+//void TRACE_INFO(char *str,...);
 //Deprecated definitions
 #define TRACE_LEVEL_NO_TRACE TRACE_LEVEL_OFF
 

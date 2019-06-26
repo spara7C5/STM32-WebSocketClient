@@ -135,8 +135,8 @@ int_t fputc(int_t c, FILE *stream)
    }
 }
 
-void TRACE_INFO(char *str,...) {
-	osSuspendAllTasks();
-	HAL_UART_Transmit(&UART_Handle,str,strlen(str),100);
-	osResumeAllTasks();
-}
+//void TRACE_INFO(char *str,...) {
+//	osSuspendAllTasks();
+//	HAL_UART_Transmit(&UART_Handle,str,strlen(str),100);
+//	osResumeAllTasks();
+//}
