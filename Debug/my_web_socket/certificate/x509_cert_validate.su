@@ -1,6 +1,0 @@
-x509_cert_validate.c:59:9:x509ValidateCertificate	272	static
-x509_cert_validate.c:450:9:x509CheckSubjectName	56	static
-x509_cert_validate.c:542:9:x509CheckNameConstraints	48	static
-x509_cert_validate.c:645:8:x509CompareName	24	static
-x509_cert_validate.c:669:8:x509CompareSubjectName	40	static
-x509_cert_validate.c:738:8:x509CompareSubtree	40	static

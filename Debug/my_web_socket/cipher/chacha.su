@@ -1,3 +1,0 @@
-chacha.c:70:9:chachaInit	32	static
-chacha.c:179:6:chachaCipher	40	static
-chacha.c:256:6:chachaProcessBlock	24	static

@@ -1,9 +1,0 @@
-oid.c:50:9:oidCheck	24	static
-oid.c:101:7:oidComp	32	static
-oid.c:138:8:oidMatch	40	static
-oid.c:275:8:oidCountSubIdentifiers	24	static
-oid.c:314:9:oidEncodeSubIdentifier	40	static
-oid.c:360:9:oidDecodeSubIdentifier	32	static
-oid.c:400:9:oidFromString	56	static
-oid.c:538:9:oidToString	64	static
-oid.c:625:9:maskFromString	40	static

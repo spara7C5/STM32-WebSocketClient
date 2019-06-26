@@ -1,8 +1,0 @@
-yarrow.c:61:9:yarrowInit	16	static
-yarrow.c:90:6:yarrowRelease	16	static
-yarrow.c:108:9:yarrowSeed	24	static
-yarrow.c:134:9:yarrowAddEntropy	32	static
-yarrow.c:206:9:yarrowRead	48	static
-yarrow.c:263:6:yarrowGenerateBlock	24	static
-yarrow.c:285:6:yarrowFastReseed	24	static
-yarrow.c:318:6:yarrowSlowReseed	24	static

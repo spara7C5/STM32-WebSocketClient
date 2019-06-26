@@ -1,7 +1,0 @@
-ecdsa.c:69:6:ecdsaInitSignature	16	static
-ecdsa.c:82:6:ecdsaFreeSignature	16	static
-ecdsa.c:98:9:ecdsaWriteSignature	72	static
-ecdsa.c:255:9:ecdsaReadSignature	56	static
-ecdsa.c:390:9:ecdsaGenerateKeyPair	32	static
-ecdsa.c:446:16:ecdsaGenerateSignature	96	static
-ecdsa.c:561:16:ecdsaVerifySignature	176	static

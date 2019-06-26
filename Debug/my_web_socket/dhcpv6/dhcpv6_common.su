@@ -1,6 +1,0 @@
-dhcpv6_common.c:70:18:dhcpv6GetStatusCode	32	static
-dhcpv6_common.c:111:15:dhcpv6AddOption	32	static
-dhcpv6_common.c:153:15:dhcpv6AddSubOption	32	static
-dhcpv6_common.c:206:15:dhcpv6GetOption	32	static
-dhcpv6_common.c:250:9:dhcpv6Rand	16	static
-dhcpv6_common.c:265:9:dhcpv6RandRange	16	static

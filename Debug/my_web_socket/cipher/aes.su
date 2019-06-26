@@ -1,3 +1,0 @@
-aes.c:202:9:aesInit	40	static
-aes.c:306:6:aesEncryptBlock	64	static
-aes.c:416:6:aesDecryptBlock	64	static

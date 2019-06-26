@@ -1,9 +1,0 @@
-ndp_cache.c:53:24:ndpCreateNeighborCacheEntry	32	static
-ndp_cache.c:106:24:ndpFindNeighborCacheEntry	24	static
-ndp_cache.c:136:6:ndpUpdateNeighborCache	72	static
-ndp_cache.c:267:6:ndpFlushNeighborCache	24	static
-ndp_cache.c:293:8:ndpSendQueuedPackets	40	static
-ndp_cache.c:352:6:ndpFlushQueuedPackets	32	static
-ndp_cache.c:395:20:ndpCreateDestCacheEntry	32	static
-ndp_cache.c:446:20:ndpFindDestCacheEntry	24	static
-ndp_cache.c:472:6:ndpFlushDestCache	16	static

@@ -1,7 +1,0 @@
-ipv6_frag.c:61:9:ipv6FragmentDatagram	72	static
-ipv6_frag.c:174:6:ipv6ParseFragmentHeader	88	static
-ipv6_frag.c:526:6:ipv6FragTick	48	static
-ipv6_frag.c:594:15:ipv6SearchFragQueue	48	static
-ipv6_frag.c:697:6:ipv6FlushFragQueue	24	static
-ipv6_frag.c:718:15:ipv6FindHole	16	static
-ipv6_frag.c:730:6:ipv6DumpHoleList	16	static

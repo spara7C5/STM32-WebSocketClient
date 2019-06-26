@@ -1,6 +1,0 @@
-web_socket_transport.c:50:9:webSocketOpenConnection	24	static
-web_socket_transport.c:138:9:webSocketEstablishConnection	32	static
-web_socket_transport.c:170:9:webSocketShutdownConnection	32	static
-web_socket_transport.c:216:6:webSocketCloseConnection	16	static
-web_socket_transport.c:250:9:webSocketSendData	40	static
-web_socket_transport.c:284:9:webSocketReceiveData	40	static

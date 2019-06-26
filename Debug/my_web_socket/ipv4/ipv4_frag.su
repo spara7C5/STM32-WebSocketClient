@@ -1,7 +1,0 @@
-ipv4_frag.c:71:9:ipv4FragmentDatagram	72	static
-ipv4_frag.c:178:6:ipv4ReassembleDatagram	56	static
-ipv4_frag.c:448:6:ipv4FragTick	48	static
-ipv4_frag.c:516:15:ipv4SearchFragQueue	40	static
-ipv4_frag.c:618:6:ipv4FlushFragQueue	24	static
-ipv4_frag.c:639:15:ipv4FindHole	16	static
-ipv4_frag.c:651:6:ipv4DumpHoleList	16	static

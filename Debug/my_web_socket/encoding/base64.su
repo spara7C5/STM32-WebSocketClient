@@ -1,2 +1,0 @@
-base64.c:78:6:base64Encode	40	static
-base64.c:188:9:base64Decode	40	static

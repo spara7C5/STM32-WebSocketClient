@@ -1,5 +1,0 @@
-tls_cache.c:50:11:tlsInitCache	24	static
-tls_cache.c:97:18:tlsFindCache	40	static
-tls_cache.c:167:9:tlsSaveToCache	40	static
-tls_cache.c:266:9:tlsRemoveFromCache	24	static
-tls_cache.c:316:6:tlsFreeCache	24	static

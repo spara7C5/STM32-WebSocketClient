@@ -1,9 +1,0 @@
-slaac.c:61:6:slaacGetDefaultSettings	16	static
-slaac.c:82:9:slaacInit	32	static
-slaac.c:122:9:slaacStart	24	static
-slaac.c:174:9:slaacStop	16	static
-slaac.c:202:6:slaacLinkChangeEvent	24	static
-slaac.c:252:6:slaacParseRouterAdv	56	static
-slaac.c:345:6:slaacParsePrefixInfoOption	96	static
-slaac.c:565:9:slaacGenerateLinkLocalAddr	64	static
-slaac.c:616:6:slaacDumpConfig	48	static

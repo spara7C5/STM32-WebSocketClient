@@ -1,3 +1,0 @@
-dns_client.c:54:9:dnsResolve	48	static
-dns_client.c:215:9:dnsSendQuery	96	static
-dns_client.c:359:6:dnsProcessResponse	72	static

@@ -1,2 +1,0 @@
-chacha20_poly1305.c:61:9:chacha20Poly1305Encrypt	336	static
-chacha20_poly1305.c:165:9:chacha20Poly1305Decrypt	336	static

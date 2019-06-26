@@ -1,2 +1,0 @@
-rc4.c:64:9:rc4Init	40	static
-rc4.c:103:6:rc4Cipher	40	static
