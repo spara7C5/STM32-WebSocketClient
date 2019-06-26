@@ -1,0 +1,9 @@
+tls_handshake.c:64:9:tlsInitHandshake	16	static
+tls_handshake.c:122:9:tlsPerformHandshake	24	static
+tls_handshake.c:154:9:tlsPerformClientHandshake	24	static
+tls_handshake.c:346:9:tlsPerformServerHandshake	16	static
+tls_handshake.c:585:9:tlsSendHandshakeMessage	32	static
+tls_handshake.c:675:9:tlsReceiveHandshakeMessage	32	static
+tls_handshake.c:767:9:tlsParseHandshakeMessage	40	static
+tls_handshake.c:857:9:tlsParseClientHandshakeMessage	24	static
+tls_handshake.c:943:9:tlsParseServerHandshakeMessage	32	static

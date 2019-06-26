@@ -1,0 +1,5 @@
+str.c:42:9:strDuplicate	24	static
+str.c:70:9:strTrimWhitespace	24	static
+str.c:109:6:strRemoveTrailingSpace	24	static
+str.c:136:6:strReplaceChar	16	static
+str.c:159:9:strSafeCopy	32	static

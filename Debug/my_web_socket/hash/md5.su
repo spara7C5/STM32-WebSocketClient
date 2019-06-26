@@ -1,0 +1,6 @@
+md5.c:109:9:md5Compute	32	static
+md5.c:136:6:md5Init	16	static
+md5.c:158:6:md5Update	40	static
+md5.c:197:6:md5Final	40	static
+md5.c:238:6:md5FinalRaw	24	static
+md5.c:260:6:md5ProcessBlock	40	static

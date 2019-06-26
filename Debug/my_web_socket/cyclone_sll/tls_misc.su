@@ -1,0 +1,16 @@
+tls_misc.c:56:6:tlsProcessError	16	static
+tls_misc.c:160:9:tlsGenerateRandomValue	24	static
+tls_misc.c:221:9:tlsSelectVersion	24	static
+tls_misc.c:249:9:tlsSelectCipherSuite	40	static
+tls_misc.c:350:9:tlsInitEncryptionEngine	40	static
+tls_misc.c:588:6:tlsFreeEncryptionEngine	16	static
+tls_misc.c:630:9:tlsWriteMpi	32	static
+tls_misc.c:663:9:tlsReadMpi	32	static
+tls_misc.c:701:9:tlsWriteEcPoint	32	static
+tls_misc.c:738:9:tlsReadEcPoint	32	static
+tls_misc.c:784:15:tlsGetVersionName	16	static
+tls_misc.c:825:17:tlsGetHashAlgo	24	static
+tls_misc.c:886:20:tlsGetCurveInfo	24	static
+tls_misc.c:1029:15:tlsGetNamedCurve	24	static
+tls_misc.c:1159:8:tlsComputeEncryptionOverhead	24	static
+tls_misc.c:1211:8:tlsCheckDnsHostname	24	static

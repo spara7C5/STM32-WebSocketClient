@@ -1,0 +1,6 @@
+tcp_timer.c:58:6:tcpTick	40	static
+tcp_timer.c:275:6:tcpTimerStart	16	static
+tcp_timer.c:291:6:tcpTimerStop	16	static
+tcp_timer.c:304:8:tcpTimerRunning	16	static
+tcp_timer.c:317:8:tcpTimerElapsed	24	static
+tcp_timer.c:342:11:tcpTimerGetInterval	16	static

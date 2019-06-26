@@ -1,0 +1,6 @@
+gcm.c:78:9:gcmInit	56	static
+gcm.c:190:9:gcmEncrypt	80	static
+gcm.c:337:9:gcmDecrypt	104	static
+gcm.c:484:6:gcmMul	40	static
+gcm.c:553:6:gcmXorBlock	32	static
+gcm.c:570:6:gcmIncCounter	24	static

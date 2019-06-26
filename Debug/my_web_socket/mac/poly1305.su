@@ -1,0 +1,4 @@
+poly1305.c:49:6:poly1305Init	16	static
+poly1305.c:89:6:poly1305Update	32	static
+poly1305.c:127:6:poly1305Final	56	static
+poly1305.c:213:6:poly1305ProcessBlock	72	static

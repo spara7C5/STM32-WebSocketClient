@@ -1,0 +1,2 @@
+dhcp_common.c:51:6:dhcpAddOption	32	static
+dhcp_common.c:108:13:dhcpGetOption	32	static

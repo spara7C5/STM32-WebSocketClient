@@ -1,0 +1,6 @@
+sha256.c:109:9:sha256Compute	32	static
+sha256.c:136:6:sha256Init	16	static
+sha256.c:162:6:sha256Update	40	static
+sha256.c:201:6:sha256Final	40	static
+sha256.c:242:6:sha256FinalRaw	24	static
+sha256.c:264:6:sha256ProcessBlock	72	static

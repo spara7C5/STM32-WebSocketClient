@@ -1,0 +1,3 @@
+camellia.c:301:9:camelliaInit	64	static
+camellia.c:429:6:camelliaEncryptBlock	56	static
+camellia.c:494:6:camelliaDecryptBlock	56	static

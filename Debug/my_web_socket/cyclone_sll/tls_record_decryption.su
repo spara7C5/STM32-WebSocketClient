@@ -1,0 +1,8 @@
+tls_record_decryption.c:60:9:tlsDecryptRecord	32	static
+tls_record_decryption.c:130:9:tlsDecryptAeadRecord	120	static
+tls_record_decryption.c:293:9:tlsDecryptCbcRecord	144	static
+tls_record_decryption.c:438:9:tlsDecryptStreamRecord	24	static
+tls_record_decryption.c:479:9:tlsVerifyMessageAuthCode	64	static
+tls_record_decryption.c:574:10:tlsVerifyPadding	48	static
+tls_record_decryption.c:628:10:tlsVerifyMac	160	static
+tls_record_decryption.c:817:10:tlsExtractMac	120	static

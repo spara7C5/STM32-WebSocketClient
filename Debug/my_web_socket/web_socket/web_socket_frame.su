@@ -1,0 +1,3 @@
+web_socket_frame.c:55:9:webSocketFormatFrameHeader	40	static
+web_socket_frame.c:179:9:webSocketParseFrameHeader	48	static
+web_socket_frame.c:436:9:webSocketFormatCloseFrame	24	static

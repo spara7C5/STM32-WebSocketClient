@@ -1,0 +1,3 @@
+nbns_client.c:53:9:nbnsResolve	48	static
+nbns_client.c:193:9:nbnsSendQuery	80	static
+nbns_client.c:277:6:nbnsProcessResponse	56	static

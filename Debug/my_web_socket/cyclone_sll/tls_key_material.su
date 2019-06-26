@@ -1,0 +1,9 @@
+tls_key_material.c:53:9:tlsGenerateSessionKeys	32	static
+tls_key_material.c:140:9:tlsGenerateMasterSecret	48	static
+tls_key_material.c:196:9:tlsGenerateExtendedMasterSecret	88	static
+tls_key_material.c:293:9:tlsGeneratePskPremasterSecret	24	static
+tls_key_material.c:395:9:tlsGenerateKeyBlock	56	static
+tls_key_material.c:475:9:tlsExportKeyingMaterial	56	static
+tls_key_material.c:625:9:tlsPrf	80	static
+tls_key_material.c:748:9:tls12Prf	104	static
+tls_key_material.c:830:6:tlsDumpSecret	24	static

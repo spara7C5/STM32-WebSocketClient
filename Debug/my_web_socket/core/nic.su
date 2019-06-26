@@ -1,0 +1,11 @@
+nic.c:64:15:nicGetLogicalInterface	16	static
+nic.c:96:15:nicGetPhysicalInterface	16	static
+nic.c:125:9:nicGetSwitchPort	16	static
+nic.c:156:10:nicGetVlanId	16	static
+nic.c:187:10:nicGetVmanId	16	static
+nic.c:219:8:nicIsParentInterface	16	static
+nic.c:262:6:nicTick	16	static
+nic.c:290:9:nicSendPacket	32	static
+nic.c:358:9:nicUpdateMacAddrFilter	24	static
+nic.c:395:6:nicProcessPacket	48	static
+nic.c:536:6:nicNotifyLinkChange	40	static

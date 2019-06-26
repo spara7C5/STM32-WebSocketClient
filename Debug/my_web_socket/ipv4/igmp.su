@@ -1,0 +1,12 @@
+igmp.c:62:9:igmpInit	16	static
+igmp.c:83:9:igmpJoinGroup	16	static
+igmp.c:133:9:igmpLeaveGroup	16	static
+igmp.c:160:6:igmpTick	32	static
+igmp.c:207:6:igmpLinkChangeEvent	32	static
+igmp.c:280:6:igmpProcessMessage	32	static
+igmp.c:349:6:igmpProcessQueryMessage	40	static
+igmp.c:436:6:igmpProcessReportMessage	32	static
+igmp.c:476:9:igmpSendReportMessage	56	static
+igmp.c:545:9:igmpSendLeaveGroupMessage	56	static
+igmp.c:613:10:igmpRand	16	static
+igmp.c:625:6:igmpDumpMessage	16	static

@@ -1,0 +1,17 @@
+tls_common.c:62:9:tlsSendCertificate	32	static
+tls_common.c:192:9:tlsSendCertificateVerify	32	static
+tls_common.c:268:9:tlsSendChangeCipherSpec	32	static
+tls_common.c:383:9:tlsSendFinished	32	static
+tls_common.c:480:9:tlsSendAlert	40	static
+tls_common.c:566:9:tlsFormatCertificate	40	static
+tls_common.c:655:9:tlsFormatCertificateVerify	32	static
+tls_common.c:714:9:tlsFormatChangeCipherSpec	24	static
+tls_common.c:736:9:tlsFormatFinished	24	static
+tls_common.c:770:9:tlsFormatAlert	24	static
+tls_common.c:795:9:tlsFormatSignatureAlgorithmsExtension	40	static
+tls_common.c:1001:9:tlsFormatSignatureAlgorithmsCertExtension	40	static
+tls_common.c:1231:9:tlsParseCertificate	40	static
+tls_common.c:1407:9:tlsParseCertificateVerify	32	static
+tls_common.c:1500:9:tlsParseChangeCipherSpec	32	static
+tls_common.c:1631:9:tlsParseFinished	32	static
+tls_common.c:1747:9:tlsParseAlert	24	static

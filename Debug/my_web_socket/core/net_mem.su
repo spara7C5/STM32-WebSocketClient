@@ -1,0 +1,14 @@
+net_mem.c:70:9:memPoolInit	4	static
+net_mem.c:100:7:memPoolAlloc	24	static
+net_mem.c:166:6:memPoolFree	16	static
+net_mem.c:207:6:memPoolGetStats	24	static
+net_mem.c:243:12:netBufferAlloc	24	static
+net_mem.c:282:6:netBufferFree	16	static
+net_mem.c:297:8:netBufferGetLength	24	static
+net_mem.c:320:9:netBufferSetLength	32	static
+net_mem.c:413:7:netBufferAt	24	static
+net_mem.c:442:9:netBufferConcat	32	static
+net_mem.c:504:9:netBufferCopy	48	static
+net_mem.c:586:9:netBufferAppend	32	static
+net_mem.c:619:8:netBufferWrite	40	static
+net_mem.c:672:8:netBufferRead	40	static

@@ -1,0 +1,5 @@
+tls_transcript_hash.c:54:9:tlsInitTranscriptHash	32	static
+tls_transcript_hash.c:195:6:tlsUpdateTranscriptHash	32	static
+tls_transcript_hash.c:254:9:tlsFinalizeTranscriptHash	32	static
+tls_transcript_hash.c:342:6:tlsFreeTranscriptHash	16	static
+tls_transcript_hash.c:385:9:tlsComputeVerifyData	96	static

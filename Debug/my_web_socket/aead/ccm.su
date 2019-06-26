@@ -1,0 +1,4 @@
+ccm.c:67:9:ccmEncrypt	88	static
+ccm.c:235:9:ccmDecrypt	104	static
+ccm.c:404:6:ccmXorBlock	32	static
+ccm.c:422:6:ccmIncCounter	24	static

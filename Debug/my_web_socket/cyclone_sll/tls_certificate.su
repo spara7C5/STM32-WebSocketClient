@@ -1,0 +1,9 @@
+tls_certificate.c:59:9:tlsFormatCertificateList	64	static
+tls_certificate.c:165:9:tlsFormatRawPublicKey	32	static
+tls_certificate.c:285:9:tlsParseCertificateList	72	static
+tls_certificate.c:585:9:tlsParseRawPublicKey	32	static
+tls_certificate.c:705:8:tlsIsCertificateAcceptable	96	static
+tls_certificate.c:1243:8:tlsIsCertificateValid	64	static
+tls_certificate.c:1334:9:tlsGetCertificateType	40	static
+tls_certificate.c:1615:9:tlsReadSubjectPublicKey	40	static
+tls_certificate.c:1882:9:tlsCheckKeyUsage	24	static

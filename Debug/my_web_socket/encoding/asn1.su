@@ -1,0 +1,8 @@
+asn1.c:52:9:asn1ReadTag	32	static
+asn1.c:160:9:asn1ReadSequence	32	static
+asn1.c:188:9:asn1ReadInt32	32	static
+asn1.c:236:9:asn1WriteTag	40	static
+asn1.c:374:9:asn1WriteInt32	40	static
+asn1.c:428:9:asn1CheckTag	24	static
+asn1.c:453:9:asn1CheckOid	32	static
+asn1.c:480:9:asn1DumpObject	24	static

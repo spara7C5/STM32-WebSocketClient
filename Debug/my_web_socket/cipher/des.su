@@ -1,0 +1,3 @@
+des.c:271:9:desInit	40	static
+des.c:343:6:desEncryptBlock	48	static
+des.c:382:6:desDecryptBlock	48	static

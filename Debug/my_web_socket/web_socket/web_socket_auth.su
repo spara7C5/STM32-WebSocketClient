@@ -1,0 +1,3 @@
+web_socket_auth.c:55:9:webSocketParseAuthenticateField	16	static
+web_socket_auth.c:167:8:webSocketAddAuthorizationField	24	static
+web_socket_auth.c:311:6:webSocketConvertArrayToHexString	32	static

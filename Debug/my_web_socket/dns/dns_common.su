@@ -1,0 +1,4 @@
+dns_common.c:56:8:dnsEncodeName	24	static
+dns_common.c:130:8:dnsParseName	48	static
+dns_common.c:240:7:dnsCompareName	48	static
+dns_common.c:339:7:dnsCompareEncodedName	72	static

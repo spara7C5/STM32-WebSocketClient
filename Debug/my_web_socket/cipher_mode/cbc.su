@@ -1,0 +1,2 @@
+cbc.c:61:9:cbcEncrypt	32	static
+cbc.c:106:9:cbcDecrypt	48	static

@@ -1,0 +1,3 @@
+hkdf.c:63:9:hkdf	112	static
+hkdf.c:97:9:hkdfExtract	32	static
+hkdf.c:150:9:hkdfExpand	104	static

@@ -1,0 +1,7 @@
+x509_common.c:154:9:x509ReadInt	24	static
+x509_common.c:186:9:x509ReadRsaPublicKey	24	static
+x509_common.c:237:9:x509ReadDsaPublicKey	16	static
+x509_common.c:307:8:x509IsSignAlgoSupported	24	static
+x509_common.c:375:8:x509IsHashAlgoSupported	24	static
+x509_common.c:474:9:x509GetSignHashAlgo	40	static
+x509_common.c:848:20:x509GetCurveInfo	24	static

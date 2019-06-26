@@ -1,0 +1,5 @@
+idea.c:64:17:ideaMul	24	static
+idea.c:86:17:ideaInv	40	static
+idea.c:127:9:ideaInit	48	static
+idea.c:193:6:ideaEncryptBlock	48	static
+idea.c:260:6:ideaDecryptBlock	48	static

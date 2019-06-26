@@ -1,0 +1,5 @@
+ec_curves.c:1769:9:secp224r1Mod	48	static
+ec_curves.c:1895:9:secp256r1Mod	56	static
+ec_curves.c:2011:9:secp384r1Mod	48	static
+ec_curves.c:2126:9:secp521r1Mod	32	static
+ec_curves.c:2172:20:ecGetCurveInfo	24	static

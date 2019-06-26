@@ -1,0 +1,9 @@
+pem_import.c:55:9:pemImportDhParameters	72	static
+pem_import.c:214:9:pemImportRsaPublicKey	80	static
+pem_import.c:473:9:pemImportRsaPrivateKey	80	static
+pem_import.c:899:9:pemImportDsaPrivateKey	88	static
+pem_import.c:1274:9:pemImportEcParameters	80	static
+pem_import.c:1493:9:pemImportEcPrivateKey	80	static
+pem_import.c:1747:9:pemImportEddsaPrivateKey	24	static
+pem_import.c:1949:9:pemImportCertificate	48	static
+pem_import.c:2062:7:pemSearchTag	32	static

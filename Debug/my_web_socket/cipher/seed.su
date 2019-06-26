@@ -1,0 +1,3 @@
+seed.c:241:9:seedInit	48	static
+seed.c:296:6:seedEncryptBlock	56	static
+seed.c:344:6:seedDecryptBlock	56	static

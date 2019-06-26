@@ -1,0 +1,10 @@
+dsa.c:77:6:dsaInitPublicKey	16	static
+dsa.c:92:6:dsaFreePublicKey	16	static
+dsa.c:107:6:dsaInitPrivateKey	16	static
+dsa.c:122:6:dsaFreePrivateKey	16	static
+dsa.c:137:6:dsaInitSignature	16	static
+dsa.c:150:6:dsaFreeSignature	16	static
+dsa.c:166:9:dsaWriteSignature	72	static
+dsa.c:322:9:dsaReadSignature	56	static
+dsa.c:457:9:dsaGenerateSignature	56	static
+dsa.c:563:9:dsaVerifySignature	96	static

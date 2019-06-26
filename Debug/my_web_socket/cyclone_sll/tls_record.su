@@ -1,0 +1,13 @@
+tls_record.c:55:9:tlsWriteProtocolData	40	static
+tls_record.c:158:9:tlsReadProtocolData	48	static
+tls_record.c:345:9:tlsWriteRecord	64	static
+tls_record.c:450:9:tlsReadRecord	56	static
+tls_record.c:621:9:tlsProcessRecord	24	static
+tls_record.c:753:6:tlsSetRecordType	24	static
+tls_record.c:779:9:tlsGetRecordType	24	static
+tls_record.c:810:6:tlsSetRecordLength	24	static
+tls_record.c:836:8:tlsGetRecordLength	24	static
+tls_record.c:867:10:tlsGetRecordData	24	static
+tls_record.c:900:6:tlsFormatAad	24	static
+tls_record.c:958:6:tlsFormatNonce	32	static
+tls_record.c:1025:6:tlsIncSequenceNumber	24	static

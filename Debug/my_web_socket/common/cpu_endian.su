@@ -1,0 +1,8 @@
+cpu_endian.c:39:10:swapInt16	16	static
+cpu_endian.c:51:10:swapInt32	16	static
+cpu_endian.c:63:10:swapInt64	32	static
+cpu_endian.c:75:9:reverseInt4	16	static
+cpu_endian.c:90:9:reverseInt8	16	static
+cpu_endian.c:106:10:reverseInt16	16	static
+cpu_endian.c:123:10:reverseInt32	16	static
+cpu_endian.c:141:10:reverseInt64	32	static

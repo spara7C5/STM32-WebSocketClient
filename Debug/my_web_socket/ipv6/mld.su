@@ -1,0 +1,11 @@
+mld.c:65:9:mldInit	16	static
+mld.c:79:9:mldStartListening	16	static
+mld.c:128:9:mldStopListening	16	static
+mld.c:155:6:mldTick	32	static
+mld.c:198:6:mldLinkChangeEvent	32	static
+mld.c:268:6:mldProcessListenerQuery	48	static
+mld.c:371:6:mldProcessListenerReport	40	static
+mld.c:438:9:mldSendListenerReport	88	static
+mld.c:512:9:mldSendListenerDone	88	static
+mld.c:585:10:mldRand	16	static
+mld.c:597:6:mldDumpMessage	16	static

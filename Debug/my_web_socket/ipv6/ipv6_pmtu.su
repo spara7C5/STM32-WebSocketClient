@@ -1,0 +1,2 @@
+ipv6_pmtu.c:54:8:ipv6GetPathMtu	24	static
+ipv6_pmtu.c:93:6:ipv6UpdatePathMtu	32	static

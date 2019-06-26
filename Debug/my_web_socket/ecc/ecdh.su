@@ -1,0 +1,5 @@
+ecdh.c:50:6:ecdhInit	16	static
+ecdh.c:67:6:ecdhFree	16	static
+ecdh.c:87:9:ecdhGenerateKeyPair	128	static
+ecdh.c:272:9:ecdhCheckPublicKey	64	static
+ecdh.c:385:9:ecdhComputeSharedSecret	112	static

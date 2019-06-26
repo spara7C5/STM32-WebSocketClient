@@ -1,0 +1,5 @@
+sha384.c:76:9:sha384Compute	32	static
+sha384.c:103:6:sha384Init	16	static
+sha384.c:129:6:sha384Update	24	static
+sha384.c:142:6:sha384Final	16	static
+sha384.c:159:6:sha384FinalRaw	32	static

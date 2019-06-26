@@ -1,0 +1,5 @@
+aria.c:257:13:OF	48	static
+aria.c:276:13:EF	48	static
+aria.c:297:9:ariaInit	128	static
+aria.c:434:6:ariaEncryptBlock	88	static
+aria.c:499:6:ariaDecryptBlock	88	static

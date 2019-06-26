@@ -1,0 +1,4 @@
+sha224.c:75:9:sha224Compute	32	static
+sha224.c:102:6:sha224Init	16	static
+sha224.c:128:6:sha224Update	24	static
+sha224.c:141:6:sha224Final	16	static

@@ -1,0 +1,14 @@
+ipv4_misc.c:55:9:ipv4CheckSourceAddr	16	static
+ipv4_misc.c:79:9:ipv4CheckDestAddr	32	static
+ipv4_misc.c:163:9:ipv4SelectSourceAddr	64	static
+ipv4_misc.c:351:8:ipv4IsOnLink	24	static
+ipv4_misc.c:386:8:ipv4IsBroadcastAddr	24	static
+ipv4_misc.c:432:8:ipv4IsTentativeAddr	24	static
+ipv4_misc.c:468:8:ipv4IsLocalHostAddr	40	static
+ipv4_misc.c:523:8:ipv4GetAddrScope	24	static
+ipv4_misc.c:587:8:ipv4GetPrefixLength	24	static
+ipv4_misc.c:613:9:ipv4GetBroadcastAddr	16	static
+ipv4_misc.c:636:9:ipv4MapMulticastAddrToMac	24	static
+ipv4_misc.c:670:6:ipv4UpdateInStats	24	static
+ipv4_misc.c:706:6:ipv4UpdateOutStats	24	static
+ipv4_misc.c:755:6:ipv4UpdateErrorStats	16	static

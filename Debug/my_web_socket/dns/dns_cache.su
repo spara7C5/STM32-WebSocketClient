@@ -1,0 +1,6 @@
+dns_cache.c:59:9:dnsInit	8	static
+dns_cache.c:74:6:dnsFlushCache	24	static
+dns_cache.c:101:16:dnsCreateEntry	24	static
+dns_cache.c:150:6:dnsDeleteEntry	16	static
+dns_cache.c:183:16:dnsFindEntry	32	static
+dns_cache.c:225:6:dnsTick	24	static

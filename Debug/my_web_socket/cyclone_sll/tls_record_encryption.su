@@ -1,0 +1,6 @@
+tls_record_encryption.c:59:9:tlsEncryptRecord	32	static
+tls_record_encryption.c:136:9:tlsEncryptAeadRecord	120	static
+tls_record_encryption.c:273:9:tlsEncryptCbcRecord	56	static
+tls_record_encryption.c:366:9:tlsEncryptStreamRecord	24	static
+tls_record_encryption.c:407:9:tlsAppendMessageAuthCode	48	static
+tls_record_encryption.c:479:9:tlsComputeMac	32	static

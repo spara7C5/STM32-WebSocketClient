@@ -1,0 +1,7 @@
+dhcpv6_relay.c:58:9:dhcpv6RelayStart	48	static
+dhcpv6_relay.c:247:9:dhcpv6RelayStop	24	static
+dhcpv6_relay.c:296:9:dhcpv6RelayJoinMulticastGroup	32	static
+dhcpv6_relay.c:338:9:dhcpv6RelayLeaveMulticastGroup	24	static
+dhcpv6_relay.c:361:6:dhcpv6RelayTask	32	static
+dhcpv6_relay.c:430:9:dhcpv6ForwardClientMessage	88	static
+dhcpv6_relay.c:559:9:dhcpv6ForwardRelayReplyMessage	96	static

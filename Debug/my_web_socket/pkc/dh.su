@@ -1,0 +1,5 @@
+dh.c:54:6:dhInit	16	static
+dh.c:71:6:dhFree	16	static
+dh.c:91:9:dhGenerateKeyPair	32	static
+dh.c:154:9:dhCheckPublicKey	32	static
+dh.c:190:9:dhComputeSharedSecret	48	static
