@@ -44,7 +44,7 @@ extern UART_HandleTypeDef UART_Handle;
 #define TRACE_LEVEL_INFO     4
 #define TRACE_LEVEL_DEBUG    5
 
-#define TRACE_LEVEL 5
+#define TRACE_LEVEL 4
 //Default trace level
 #ifndef TRACE_LEVEL
    #define TRACE_LEVEL TRACE_LEVEL_DEBUG

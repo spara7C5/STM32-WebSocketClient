@@ -691,7 +691,6 @@ int_t main(void)
    //Register RNG callback
    webSocketRegisterRandCallback(webSocketClientRngCallback);
 
-   TRACE_ERROR("********************INITIALIZATION END *********************!\r\n");
    //Create an event object
    if(!osCreateEvent(&appEvent))
    {

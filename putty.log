@@ -1,0 +1,353 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.06.27 17:32:32 =~=~=~=~=~=~=~=~=~=~=~=
+
+****************************************
+*** CycloneTCP WebSocket Client Demo ***
+****************************************
+Copyright: 2010-2019 Oryx Embedded SARL
+Compiled: Jun 27 2019 17:21:33
+  Version = 2222
+Target: STM32F429
+
+Initializing STM32F7xx Ethernet MAC...
+Initializing LAN8742...
+Dumping PHY Regs: 
+00: 0x1000
+Dumping PHY Regs: 
+01: 0x7809
+Dumping PHY Regs: 
+02: 0x0007
+Dumping PHY Regs: 
+03: 0xC131
+Dumping PHY Regs: 
+04: 0x01E1
+Dumping PHY Regs: 
+05: 0x0001
+Dumping PHY Regs: 
+06: 0x0064
+Dumping PHY Regs: 
+07: 0x2001
+Dumping PHY Regs: 
+08: 0x0000
+Dumping PHY Regs: 
+09: 0xFFFF
+Dumping PHY Regs: 
+10: 0xFFFF
+Dumping PHY Regs: 
+11: 0xFFFF
+Dumping PHY Regs: 
+12: 0xFFFF
+Dumping PHY Regs: 
+13: 0x0000
+Dumping PHY Regs: 
+14: 0x0000
+Dumping PHY Regs: 
+15: 0x0000
+Dumping PHY Regs: 
+16: 0x0041
+Dumping PHY Regs: 
+17: 0x0002
+Dumping PHY Regs: 
+18: 0x6000
+Dumping PHY Regs: 
+19: 0xFFFF
+Dumping PHY Regs: 
+20: 0x0000
+Dumping PHY Regs: 
+21: 0x0000
+Dumping PHY Regs: 
+22: 0x0000
+Dumping PHY Regs: 
+23: 0x0000
+Dumping PHY Regs: 
+24: 0x9B9D
+Dumping PHY Regs: 
+25: 0x0000
+Dumping PHY Regs: 
+26: 0x0000
+Dumping PHY Regs: 
+27: 0x0000
+Dumping PHY Regs: 
+28: 0x0000
+Dumping PHY Regs: 
+29: 0x0090
+Dumping PHY Regs: 
+30: 0x0000
+Dumping PHY Regs: 
+31: 0x0040
+
+Updating MAC filter...
+  MACHTLR = 00000000
+  MACHTHR = 00000001
+Initializing DHCP client...
+Starting DHCP client...
+Link is down (eth0)...
+Link is up (eth0)...
+  Link speed = 100 Mbps
+  Duplex mode = Full-Duplex
+2s 102ms: DHCP client SELECTING state
+Allocating 1536 bytes...
+Allocating 1536 bytes at 0x20006640
+
+4s 108ms: Sending DHCP message (300 bytes)...
+Sending UDP datagram (308 bytes)
+  Source Port = 68
+  Destination Port = 67
+  Length = 308
+  Checksum = 0xFA7F
+Sending IPv4 packet (328 bytes)...
+  Version = 4
+  Header Length = 5
+  Type Of Service = 0
+  Total Length = 328
+  Identification = 0
+  Flags = 0x0
+  Fragment Offset = 0
+  Time To Live = 64
+  Protocol = 17
+  Header Checksum = 0x79A6
+  Src Addr = 0.0.0.0
+  Dest Addr = 255.255.255.255
+Sending Ethernet frame (342 bytes)...
+  Dest Addr = FF-FF-FF-FF-FF-FF
+  Src Addr = 00-AB-CD-EF-04-29
+  Type = 0x0800
+Sending packet (342 bytes)...
+Freeing memory at 0x20006640
+Allocating 1536 bytes...
+Allocating 1536 bytes at 0x20006640
+
+8s 508ms: Sending DHCP message (300 bytes)...
+Sending UDP datagram (308 bytes)
+  Source Port = 68
+  Destination Port = 67
+  Length = 308
+  Checksum = 0xFA7B
+Sending IPv4 packet (328 bytes)...
+  Version = 4
+  Header Length = 5
+  Type Of Service = 0
+  Total Length = 328
+  Identification = 1
+  Flags = 0x0
+  Fragment Offset = 0
+  Time To Live = 64
+  Protocol = 17
+  Header Checksum = 0x79A5
+  Src Addr = 0.0.0.0
+  Dest Addr = 255.255.255.255
+Sending Ethernet frame (342 bytes)...
+  Dest Addr = FF-FF-FF-FF-FF-FF
+  Src Addr = 00-AB-CD-EF-04-29
+  Type = 0x0800
+Sending packet (342 bytes)...
+Freeing memory at 0x20006640
+Packet received (64 bytes)...
+  FF FF FF FF FF FF E4 8F 34 E1 89 54 08 06 00 01 
+  08 00 06 04 00 01 E4 8F 34 E1 89 54 C0 A8 01 01 
+  00 00 00 00 00 00 C0 A8 01 1A 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 2C 78 A5 E8 
+Ethernet frame received (60 bytes)...
+  Dest Addr = FF-FF-FF-FF-FF-FF
+  Src Addr = E4-8F-34-E1-89-54
+  Type = 0x0806
+ARP packet received (46 bytes)...
+  Hardware Type (hrd) = 0x0001
+  Protocol Type (pro) = 0x0800
+  Hardware Address Length (hln) = 6
+  Protocol Address Length (pln) = 4
+  Opcode (op) = 1
+  Sender Hardware Address (sha) = E4-8F-34-E1-89-54
+  Sender Protocol Address (spa) = 192.168.1.1
+  Target Hardware Address (tha)= 00-00-00-00-00-00
+  Target Protocol Address (tpa) = 192.168.1.26
+Packet received (64 bytes)...
+  FF FF FF FF FF FF E4 8F 34 E1 89 54 08 06 00 01 
+  08 00 06 04 00 01 E4 8F 34 E1 89 54 C0 A8 01 01 
+  00 00 00 00 00 00 C0 A8 01 1A 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 2C 78 A5 E8 
+Ethernet frame received (60 bytes)...
+  Dest Addr = FF-FF-FF-FF-FF-FF
+  Src Addr = E4-8F-34-E1-89-54
+  Type = 0x0806
+ARP packet received (46 bytes)...
+  Hardware Type (hrd) = 0x0001
+  Protocol Type (pro) = 0x0800
+  Hardware Address Length (hln) = 6
+  Protocol Address Length (pln) = 4
+  Opcode (op) = 1
+  Sender Hardware Address (sha) = E4-8F-34-E1-89-54
+  Sender Protocol Address (spa) = 192.168.1.1
+  Target Hardware Address (tha)= 00-00-00-00-00-00
+  Target Protocol Address (tpa) = 192.168.1.26
+Packet received (378 bytes)...
+  FF FF FF FF FF FF E4 8F 34 E1 89 54 08 00 45 00 
+  01 68 00 00 00 00 40 11 B7 DC C0 A8 01 01 FF FF 
+  FF FF 00 43 00 44 01 54 FA B1 02 01 06 00 66 56 
+  AA 1F 00 00 80 00 00 00 00 00 C0 A8 01 1A 00 00 
+  00 00 00 00 00 00 00 AB CD EF 04 29 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 63 82 53 63 35 01 02 36 04 C0 
+  A8 01 01 7D 25 00 00 0D E9 20 04 06 42 43 31 35 
+  41 43 05 0F 52 31 38 30 39 30 30 30 30 30 35 31 
+  35 33 30 06 05 56 4F 58 33 30 33 04 00 01 51 3B 
+  01 04 FF FF FF 00 02 04 00 00 0E 10 03 04 C0 A8 
+  01 01 06 04 C0 A8 01 01 3A 04 00 00 A8 C0 3B 04 
+  00 01 27 50 FF 00 FA E4 BF 3C 
+Ethernet frame received (374 bytes)...
+  Dest Addr = FF-FF-FF-FF-FF-FF
+  Src Addr = E4-8F-34-E1-89-54
+  Type = 0x0800
+IPv4 packet received (360 bytes)...
+  Version = 4
+  Header Length = 5
+  Type Of Service = 0
+  Total Length = 360
+  Identification = 0
+  Flags = 0x0
+  Fragment Offset = 0
+  Time To Live = 64
+  Protocol = 17
+  Header Checksum = 0xB7DC
+  Src Addr = 192.168.1.1
+  Dest Addr = 255.255.255.255
+IPv4 datagram received (360 bytes)...
+  Version = 4
+  Header Length = 5
+  Type Of Service = 0
+  Total Length = 360
+  Identification = 0
+  Flags = 0x0
+  Fragment Offset = 0
+  Time To Live = 64
+  Protocol = 17
+  Header Checksum = 0xB7DC
+  Src Addr = 192.168.1.1
+  Dest Addr = 255.255.255.255
+UDP datagram received (340 bytes)...
+  Source Port = 67
+  Destination Port = 68
+  Length = 340
+  Checksum = 0xFAB1
+
+10s 850ms: DHCP message received (332 bytes)...
+10s 855ms: DHCP client REQUESTING state
+Allocating 1536 bytes...
+Allocating 1536 bytes at 0x20006640
+
+10s 965ms: Sending DHCP message (300 bytes)...
+Sending UDP datagram (308 bytes)
+  Source Port = 68
+  Destination Port = 67
+  Length = 308
+  Checksum = 0x672C
+Sending IPv4 packet (328 bytes)...
+  Version = 4
+  Header Length = 5
+  Type Of Service = 0
+  Total Length = 328
+  Identification = 2
+  Flags = 0x0
+  Fragment Offset = 0
+  Time To Live = 64
+  Protocol = 17
+  Header Checksum = 0x79A4
+  Src Addr = 0.0.0.0
+  Dest Addr = 255.255.255.255
+Sending Ethernet frame (342 bytes)...
+  Dest Addr = FF-FF-FF-FF-FF-FF
+  Src Addr = 00-AB-CD-EF-04-29
+  Type = 0x0800
+Sending packet (342 bytes)...
+Freeing memory at 0x20006640
+Packet received (378 bytes)...
+  FF FF FF FF FF FF E4 8F 34 E1 89 54 08 00 45 00 
+  01 68 00 00 00 00 40 11 B7 DC C0 A8 01 01 FF FF 
+  FF FF 00 43 00 44 01 54 FF F0 02 01 06 00 6E 44 
+  99 AD 00 00 80 00 00 00 00 00 C0 A8 01 1A 00 00 
+  00 00 00 00 00 00 00 AB CD EF 04 29 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 63 82 53 63 35 01 05 36 04 C0 
+  A8 01 01 7D 25 00 00 0D E9 20 04 06 42 43 31 35 
+  41 43 05 0F 52 31 38 30 39 30 30 30 30 30 35 31 
+  35 33 30 06 05 56 4F 58 33 30 33 04 00 01 51 80 
+  01 04 FF FF FF 00 02 04 00 00 0E 10 03 04 C0 A8 
+  01 01 06 04 C0 A8 01 01 3A 04 00 00 A8 C0 3B 04 
+  00 01 27 50 FF 00 BB 32 FA 4E 
+Ethernet frame received (374 bytes)...
+  Dest Addr = FF-FF-FF-FF-FF-FF
+  Src Addr = E4-8F-34-E1-89-54
+  Type = 0x0800
+IPv4 packet received (360 bytes)...
+  Version = 4
+  Header Length = 5
+  Type Of Service = 0
+  Total Length = 360
+  Identification = 0
+  Flags = 0x0
+  Fragment Offset = 0
+  Time To Live = 64
+  Protocol = 17
+  Header Checksum = 0xB7DC
+  Src Addr = 192.168.1.1
+  Dest Addr = 255.255.255.255
+IPv4 datagram received (360 bytes)...
+  Version = 4
+  Header Length = 5
+  Type Of Service = 0
+  Total Length = 360
+  Identification = 0
+  Flags = 0x0
+  Fragment Offset = 0
+  Time To Live = 64
+  Protocol = 17
+  Header Checksum = 0xB7DC
+  Src Addr = 192.168.1.1
+  Dest Addr = 255.255.255.255
+UDP datagram received (340 bytes)...
+  Source Port = 67
+  Destination Port = 68
+  Length = 340
+  Checksum = 0xFFF0
+
+11s 250ms: DHCP message received (332 bytes)...
+11s 255ms: DHCP client PROBING state
+Allocating 1536 bytes...
+Allocating 1536 bytes at 0x20006640
+Sending ARP Probe (28 bytes)...
+  Hardware Type (hrd) = 0x0001
+  Protocol Type (pro) = 0x0800
+  Hardware Address Length (hln) = 6
+  Protocol Address Length (pln) = 4
+  Opcode (op) = 1
+  Sender Hardware Address (sha) = 00-AB-CD-EF-04-29
+  Sender Protocol Address (spa) = 0.0.0.0
+  Target Hardware Address (tha)= 00-00-00-00-00-00
+  Target Protocol Address (tpa) = 192.168.1.26
+Sending Ethernet frame (42 bytes)...
+  Dest Addr = FF-FF-FF-FF-FF-FF
+  Src Addr = 00-AB-CD-EF-04-29
+  Type = 0x0806
+Sending packet (42 bytes)...
+Freeing memory at 0x20006640

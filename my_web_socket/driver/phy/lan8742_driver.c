@@ -289,10 +289,12 @@ void lan8742DumpPhyReg(NetInterface *interface)
 {
    uint8_t i;
 
+   TRACE_DEBUG("Dumping PHY Regs: \r\n");
    //Loop through PHY registers
    for(i = 0; i < 32; i++)
    {
       //Display current PHY register
+
       TRACE_DEBUG("%02" PRIu8 ": 0x%04" PRIX16 "\r\n", i, lan8742ReadPhyReg(interface, i));
    }
 

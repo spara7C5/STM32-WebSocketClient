@@ -1,0 +1,62 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.06.27 18:47:33 =~=~=~=~=~=~=~=~=~=~=~=
+
+****************************************
+*** CycloneTCP WebSocket Client Demo ***
+****************************************
+Copyright: 2010-2019 Oryx Embedded SARL
+Compiled: Jun 27 2019 17:49:03
+  Version = 2222
+Target: STM32F429
+
+Initializing STM32F7xx Ethernet MAC...
+Initializing LAN8742...
+Dumping PHY Regs: 
+00: 0x1000
+01: 0x7809
+02: 0x0007
+03: 0xC131
+04: 0x01E1
+05: 0x0001
+06: 0x0064
+07: 0x2001
+08: 0x0000
+09: 0xFFFF
+10: 0xFFFF
+11: 0xFFFF
+12: 0xFFFF
+13: 0x0000
+14: 0x0000
+15: 0x0000
+16: 0x0041
+17: 0x0002
+18: 0x60E0
+19: 0xFFFF
+20: 0x0000
+21: 0x0000
+22: 0x0000
+23: 0x0000
+24: 0x9B9D
+25: 0x0000
+26: 0x0000
+27: 0x0000
+28: 0x0000
+29: 0x0090
+30: 0x0000
+31: 0x0040
+
+Updating MAC filter...
+  MACHTLR = 00000000
+  MACHTHR = 00000001
+Initializing DHCP client...
+Starting DHCP client...
+********************INITIALIZATION END *********************!
+Link is down (eth0)...
+
+****************************************
+*** CycloneTCP WebSocket Client Demo ***
+****************************************
+Copyright: 2010-2019 Oryx Embedded SARL
+Compiled: Jun 27 2019 18:46:46
+  Version = 2222
+Target: STM32F429
+
