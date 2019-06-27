@@ -2322,7 +2322,7 @@ char_t *ipv6AddrToString(const Ipv6Addr *ipAddr, char_t *str)
 void ipv6DumpHeader(const Ipv6Header *ipHeader)
 {
    //Dump IPv6 header contents
-   TRACE_DEBUG("  Version = %" PRIu16 "\r\n", ipHeader->version);
+   TRACE_DEBUG("  Version = %" PRIu8 "\r\n", ipHeader->version);
    TRACE_DEBUG("  Traffic Class = %u\r\n", (ipHeader->trafficClassH << 4) | ipHeader->trafficClassL);
    TRACE_DEBUG("  Flow Label = 0x%05X\r\n", (ipHeader->flowLabelH << 16) | ntohs(ipHeader->flowLabelL));
    TRACE_DEBUG("  Payload Length = %" PRIu16 "\r\n", ntohs(ipHeader->payloadLen));

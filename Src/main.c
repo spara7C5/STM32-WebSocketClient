@@ -506,6 +506,7 @@ int_t main(void)
    TRACE_INFO("****************************************\r\n");
    TRACE_INFO("Copyright: 2010-2019 Oryx Embedded SARL\r\n");
    TRACE_INFO("Compiled: %s %s\r\n", __DATE__, __TIME__);
+   printf("  Version = %" "h""u"  "\r\n", 2222);
    TRACE_INFO("Target: STM32F429\r\n");
    TRACE_INFO("\r\n");
 
