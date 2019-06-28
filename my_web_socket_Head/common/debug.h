@@ -41,11 +41,12 @@ extern UART_HandleTypeDef UART_Handle;
 #define TRACE_LEVEL_FATAL    1
 #define TRACE_LEVEL_ERROR    2
 #define TRACE_LEVEL_WARNING  3
-#define TRACE_LEVEL_INFO     4
-#define TRACE_LEVEL_DEBUG    5
+#define TRACE_LEVEL_INFO     4 // tracciamento delle operazioni fondamentali eseguite
+#define TRACE_LEVEL_DEBUG    5 //vari dump di strutture
 
 #define TRACE_LEVEL 4
-//Default trace level
+//Default trace leveltt
+
 #ifndef TRACE_LEVEL
    #define TRACE_LEVEL TRACE_LEVEL_DEBUG
 #endif

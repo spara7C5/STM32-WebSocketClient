@@ -63,10 +63,10 @@
 #define APP_IPV6_SECONDARY_DNS "2001:4860:4860::8844"
 
 //WebSocket server name
-#define APP_SERVER_NAME "echo.websocket.org"
+#define APP_SERVER_NAME "192.168.1.10"
 
 //WebSocket server port
-#define APP_SERVER_PORT 80
+#define APP_SERVER_PORT 8081
 //#define APP_SERVER_PORT 443
 
 //URI
